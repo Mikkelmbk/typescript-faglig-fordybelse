@@ -12,6 +12,11 @@ interface SELVVALGT_NAVN1 {
     language: String;
 }
 
+var hej:SELVVALGT_NAVN1 = { // Force this ordinary object to adhere to the chosen Interface's predetermined property names aswell as their datatypes
+    name:"hej",
+    language:"hej2"
+}
+
 const worksWithStrings = (type: SELVVALGT_NAVN1): void => {
     console.log(`Android ${type.name} has ${type.language} language`);
 };

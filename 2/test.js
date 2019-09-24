@@ -1,6 +1,10 @@
 // const spiderman = (person: string) => {
 //     return 'Hello, ' + person;
 // }
+var hej = {
+    name: "hej",
+    language: "hej2"
+};
 var worksWithStrings = function (type) {
     console.log("Android " + type.name + " has " + type.language + " language");
 };
